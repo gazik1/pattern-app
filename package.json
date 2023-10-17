@@ -1,0 +1,22 @@
+{
+  "name": "ts-exmple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+ 
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "ts-loader": "^9.5.0",
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
